@@ -139,7 +139,7 @@ export default class Login extends Component {
               </div>
             )}
             <CheckButton
-              style={{ display: "none" }}
+              style={{ display: "" }}
               ref={c => {
                 this.checkBtn = c;
               }}
