@@ -121,7 +121,7 @@ class App extends Component {
 
               <li className="nav-item">
                 <Link to={"/register"} className="nav-link">
-                  Sign Up
+                  Sign Ups
                 </Link>
               </li>
             </div>
