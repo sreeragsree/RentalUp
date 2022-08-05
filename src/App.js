@@ -115,7 +115,7 @@ class App extends Component {
             <div className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link to={"/login"} className="nav-link">
-                  Sign In
+                  Sign 
                 </Link>
               </li>
 
