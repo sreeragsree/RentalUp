@@ -12,4 +12,9 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
+axios.get('https://sysirohub.com/rent_api').then(resp => {
+
+    console.log(resp.data);
+});
+
 serviceWorker.unregister();
