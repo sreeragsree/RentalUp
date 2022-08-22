@@ -195,7 +195,7 @@ export default class Register extends Component {
               </div>
             )}
             <CheckButton
-        
+              style={{ display: "" }}
               ref={c => {
                 this.checkBtn = c;
               }}
